@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dune - Multi Purpose Bootstrap Template</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- owl theme CSS -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- Pagepiling CSS -->
+    <link rel="stylesheet" href="css/jquery.pagepiling.css" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- styles for this template -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Preloader Section -->
+    <div id="loader-wrapper">
+        <div class="load-content">
+            <img src="images/loading.png" alt="">
+            <span>Loading...</span>
+        </div>
+    </div>
+    <!-- Preloader Section End -->
+    <!--     Full Container start  -->
+    <div class="container-fluid nopadding">
+        <div class="row nopadding">
+            <!-- Header start  -->
+            <div class="col-md-1 col-sm-1 col-xs-12 header nopadding text-center">
+                <!--     Logo start  -->
+                <div class="logo">
+                    <a href="index.html"><img class="">
+                        <h2>Museum</h2></a>
+                </div>
+                <!--     logo end  -->
+                <div class="menu_icon" id="mynav">
+                    <p onclick="openNav()">&#9776;</p>
+                </div>
+                <!--     sidenav start  -->
+                <div id="mySidenav" class="sidenav">
+                    <div class="sidenav_left">
+                        <!--     Logo start  -->
+                        <div class="logo_over hidden-xs">
+                            <a href="index.html">
+                        </div>
+                        <!--     Logo end  -->
+                        <!--   menu start  -->
+                        <ul id="menu">
+                            <li data-menuanchor="page1" class="active"><a onclick="closeNav()" href="#page1">HOME</a></li>
+                            <li data-menuanchor="page2"><a onclick="closeNav()" href="#page2">Categories</a></li>
+                            <li data-menuanchor="page3"><a onclick="closeNav()" href="#page3">ABOUT</a></li>
+                            
+                        </ul>
+                        <!--   menu end  -->
+                        <div class="menu_close">
+                            <a href="javascript:void(0)" class="closebtn menu_icon" onclick="closeNav()">&times; Close</a>
+                        </div>
+                    </div>
+                    <div class="sidenav_right hidden-xs">
+                        <div class="slogan_over">
+                            <h3>E-Museum</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--     sidenav end  -->
+            </div>
+            <!-- Header end  -->
+            <!-- content start  -->
+            <div class="col-md-11 col-sm-11 col-xs-12 content nopadding">
+                <!-- Pagepilling start -->
+                <div id="pagepiling">
+                    <!-- Section one area start -->
+                    <div class="section" id="section1">
+                        <div id="lionhero" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="slide one"></div>
+
+                            </div>
+                            <div class="item">
+                                <div class="slide two"></div>
+                                <div class="welcome-text">
+                                    <p>Selamat Datang di E-Museum</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="slide three"></div>
+                                <div class="welcome-text">
+                                    <p>Selamat Datang di E-Museum</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- more_link start -->
+                        <div class="more_link">
+                            <a href="#page2">Scroll Down <br>
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                        </div>
+                        <!-- more_link end -->
+                    </div>
+                    <!-- Section one area end -->
+                    <!-- Section two area start -->
+                    <div class="section" id="section2">
+                        <!-- intro start -->
+                        <div class="">
+                            <div class="">
+                                <div class="work_area">
+                                    <h2 class="text-center">Animals.</h2>
+                                    <ul id="filters">
+                                        <li class="active" data-filter="*">All</li>
+                                        <li data-filter=".bird">Bird</li>
+                                        <li data-filter=".fish">Fish</li>
+                                        <li data-filter=".cat">Cat</li>
+                                        <li data-filter=".dog">Dog</li>
+                                    </ul>
+                                    <div class="portfolio-container isotope" id="portfolio-container">
+                                        <!-- WORK 1 START -->
+                                        <div class="portfolio-item col-md-4  col-sm-4  bird">
+                                            <a href="single-work.html">
+                                                <div class="portfolio-column">
+                                                    <div class="portfolio-hover ">
+                                                        <div class="portfolio-content">
+                                                            <h3>Tucan Toco</h3>
+                                                            <p>View details.</p>
+                                                        </div>
+                                                        <div class="portfolio-overlay"></div>
+                                                    </div>
+                                                    <img src="images/portfolio/bird-2.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- WORK 1 END -->
+                                        <!-- WORK 2 START -->
+                                        <div class="portfolio-item col-md-4  col-sm-4  fish">
+                                            <a href="single-work.html">
+                                                <div class="portfolio-column">
+                                                    <div class="portfolio-hover ">
+                                                        <div class="portfolio-content">
+                                                            <h3>Thoughtfulness</h3>
+                                                            <p>View details.</p>
+                                                        </div>
+                                                        <div class="portfolio-overlay"></div>
+                                                    </div>
+                                                    <img src="images/portfolio/fish-1.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- WORK 2 END -->
+                                        <!-- WORK 3 START -->
+                                        <div class="portfolio-item col-md-4  col-sm-4  fish">
+                                            <a href="single-work.html">
+                                                <div class="portfolio-column">
+                                                    <div class="portfolio-hover ">
+                                                        <div class="portfolio-content">
+                                                            <h3>Ashes</h3>
+                                                            <p>View details.</p>
+                                                        </div>
+                                                        <div class="portfolio-overlay"></div>
+                                                    </div>
+                                                    <img src="images/portfolio/fish-2.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- WORK 3 END -->
+                                        <!-- WORK 4 START -->
+                                        <div class="portfolio-item col-md-4  col-sm-4  cat">
+                                            <a href="single-work.html">
+                                                <div class="portfolio-column">
+                                                    <div class="portfolio-hover ">
+                                                        <div class="portfolio-content">
+                                                            <h3>You got the look</h3>
+                                                            <p>View details.</p>
+                                                        </div>
+                                                        <div class="portfolio-overlay"></div>
+                                                    </div>
+                                                    <img src="images/portfolio/cat-3.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- WORK 4 END -->
+                                        <!-- WORK 5 START -->
+                                        <div class="portfolio-item col-md-4  col-sm-4  dog">
+                                            <a href="single-work.html">
+                                                <div class="portfolio-column">
+                                                    <div class="portfolio-hover ">
+                                                        <div class="portfolio-content">
+                                                            <h3>PH.D</h3>
+                                                            <p>View details.</p>
+                                                        </div>
+                                                        <div class="portfolio-overlay"></div>
+                                                    </div>
+                                                    <img src="images/portfolio/dog-1.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- WORK 5 END -->
+                                        <!-- WORK 6 START -->
+                                        <div class="portfolio-item col-md-4  col-sm-4  dog">
+                                            <a href="single-work.html">
+                                                <div class="portfolio-column">
+                                                    <div class="portfolio-hover ">
+                                                        <div class="portfolio-content">
+                                                            <h3>Leaves</h3>
+                                                            <p>View details.</p>
+                                                        </div>
+                                                        <div class="portfolio-overlay"></div>
+                                                    </div>
+                                                    <img src="images/portfolio/dog-2.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- WORK 6 END -->
+                                        <!-- WORK 7 START -->
+                                        <div class="portfolio-item col-md-4  col-sm-4  fish">
+                                            <a href="single-work.html">
+                                                <div class="portfolio-column">
+                                                    <div class="portfolio-hover ">
+                                                        <div class="portfolio-content">
+                                                            <h3>Forgotten</h3>
+                                                            <p>View details.</p>
+                                                        </div>
+                                                        <div class="portfolio-overlay"></div>
+                                                    </div>
+                                                    <img src="images/portfolio/fish-3.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- WORK 7 END -->
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section two area end -->
+                    <!-- Section three area start -->
+                    <div class="section" id="section3">
+                        <!-- intro start -->
+                        <div class="intro">
+                            <div class="container-fluid nopadding">
+                                <div class="row nopadding">
+                                    <!-- about_left start -->
+                                    <div class="col-md-6 col-sm-12 col-xs-12 about_left">
+                                        <!-- about_content_top start -->
+                                        
+                    <!-- Section six area end -->
+                    <!-- Section seven area start -->
+                    
+    <!--   end:  Full Container  -->
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Contact JS -->
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Isotop JS -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Pagepiling JS -->
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <!-- Custom functions for this template -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
